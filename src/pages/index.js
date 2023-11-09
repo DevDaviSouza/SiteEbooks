@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <body className=' justify-center items-center flex '>
+    <div className=' justify-center items-center flex w-screen bg-gray-600'>
       <main className='w-4/5 border bg-gray-800 m-7'>
         <nav className=' flex row justify-between items-center p-4'>  
          
@@ -37,7 +37,7 @@ export default function Home() {
         <section className=' items-center justify-center flex  flex-col'>
           
 
-          <div className='pt-10 cards columns-3 gap-y-7 gap-x-32 bg-gray-800 '>
+          <div className='pt-10 cards columns-3 gap-y-7 gap-x-64 bg-gray-800 '>
                  <Image
                     src="/capa.jpg"
                     alt="user"
@@ -116,6 +116,6 @@ export default function Home() {
         </section>
 
       </main>
-    </body>
+    </div>
   )
 }
