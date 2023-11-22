@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Card from '@/components/card'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className=' justify-center items-center flex w-screen bg-gray-600'>
+    <div className=' justify-center items-center flex  bg-gray-600'>
       <main className='w-4/5 border bg-gray-800 m-7'>
         <nav className=' flex row justify-between items-center p-4'>  
          
@@ -37,80 +38,67 @@ export default function Home() {
         <section className=' items-center justify-center flex  flex-col'>
           
 
-          <div className='pt-10 cards columns-3 gap-y-7 gap-x-64 bg-gray-800 '>
-                 <Image
-                    src="/capa.jpg"
-                    alt="user"
-                    className='mb-10'
-                    width={250}
-                    height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
-                  
-                  <Image
-                          src="/capa.jpg"
-                          alt="user"
-                          className='mb-10'
-                          width={250}
-                          height={500}
-                  />
+          <div className='pt-10 cards columns-3 gap-y-7 gap-x-36 bg-gray-800'>   
+           
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
             
-                
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+            
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+            
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+            
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+            
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
+
+            <Card
+              Imagem="https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg"
+              Titulo="TESTE"
+            />
 
           </div>
         </section>
