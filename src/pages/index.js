@@ -8,31 +8,21 @@ export default function Home() {
   return (
     <div className=' justify-center items-center flex  bg-gray-600'>
       <main className='w-4/5 border bg-gray-800 m-7'>
-        <nav className=' flex row justify-between items-center p-4'>  
-         
-          
-          <img src='https://icons.iconarchive.com/icons/martz90/circle/32/books-icon.png' alt='teste' width={80}/>
-              
-              <div className='menu flex gap-32 text-2xl'>
-                <div className='cursor-pointer'>Home</div>
-                <div className='cursor-pointer'>WEB</div>
-                <div className='cursor-pointer'>Mobile</div>
-                <div className='cursor-pointer'>Desktop</div>
-              </div>
+        <nav className='flex row text-center items-center justify-center p-4 pl-14'>  
 
-              <div className='user pl-20'>
-              {/* <Image
-                    src="/fotinha.jpg"
-                    alt="user"
-                    className='rounded-full'
-                    width={100}
-                    height={100}
-                />
-                */}
+              <div className='flex gap-32 text-2xl'>
+                <div className='mt-6 cursor-pointer'>Home</div>
+                <div className='mt-6 cursor-pointer'>WEB</div>
+            
+                <img src='https://icons.iconarchive.com/icons/martz90/circle/32/books-icon.png' alt='teste' width={80}/>
+
+                <div className='mt-6 cursor-pointer'>Mobile</div>
+                <div className='mt-6 cursor-pointer'>Desktop</div>
               </div>
+          
         </nav>
       
-        <h1 className='text-3xl pt-7 pb-7 text-center bg-gray-500'>
+        <h1 className='text-3xl pt-7 pb-7 text-center bg-gray-500 border'>
             Baixe os Ebooks que quiser de forma totalmente gratuita!
           </h1>
         <section className=' items-center justify-center flex  flex-col'>
